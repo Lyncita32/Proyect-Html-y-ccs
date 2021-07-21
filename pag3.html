@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Eve3</title>
+    <style>
+        #contenedor {
+            width: 100%;
+            margin: 0 auto;           
+        }
+        #imagen1 {
+            margin: 5px 5%;
+        }
+        .buscador {
+            border: 1px solid silver;
+            display: inline;
+            border-radius: 10px;
+            padding: 5px;
+            margin-top: 10px;
+        }
+        input[type="submit"] {
+            background-color: #e5b1a6;
+            color: black;
+        }
+        input[type=search],
+        input[type=search]:focus {
+            -webkit-appearance: none;
+            appearance: none;
+            border: 0;
+            outline: 0;
+            box-sizing: border-box;
+            margin-top: 30px;
+        }
+        #parte1 {
+            width: 100%;
+            height: 200px;
+            float: left;  
+        }
+        header {
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            text-align: center;
+            background-color: #a6cbe6;
+        }
+        #vvideo {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            float: left;
+            margin: 2%;
+            margin-left: 5%;
+            box-sizing: border-box;
+        }
+        main {
+            width: 60%;
+            float: left;
+            display: flex;
+            justify-content:center;
+            background-color: rgb(243, 230, 205);
+            margin-top: 10px; 
+        }
+        #texto{
+            text-align: justify;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            line-height: 1.6;
+        }
+        h2{
+            width: 55%;
+            text-align: center;
+            margin-left: 10%;
+            font-size: 30px;
+            color: rgb(75, 57, 241);
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #star {
+            float:right;
+            margin-left: 10%;
+            margin-top:10px;
+        }
+        aside {
+            width: 20%;
+            float: right;
+            margin: 40px 10%;
+            text-align: center;
+            background-color: rgb(243, 230, 205);
+        }
+        #v1{
+            width: 100%;
+            text-align: center;
+            margin: 2%;
+            float: left;
+            box-sizing: border-box;  
+        }
+        h3{
+            font-size: 10px;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        @media (max-width: 980px){
+            
+            header{
+                width: auto;
+                flex-wrap: wrap;
+                
+            }
+            #imagen1{
+                width: auto;
+                height: auto;   
+            }
+            .buscador{
+                width: auto;
+                height: auto;
+                margin:0px;
+                background-color:#a6cbe6 ;
+            }
+            main{
+                width: 60%;
+            }
+            aside{
+                width: 15%;
+            }
+            iframe{
+                width:100%;  
+            }
+        }
+        @media (max-width: 780px){ 
+            header{
+                width: auto;
+                flex-wrap: wrap;
+            }
+            iframe{
+                width:100%; 
+            }
+            main{
+                width: 100%;
+            }
+            aside{
+            width: 60%;
+            float: left;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="parte1">
+
+            <header>
+                <div id="imagen1">
+                    <img src="on.jpg" width="50" height="50" alt="">
+                    <img src="blue.jpg" width="50" height="50" alt="">
+                    <img src="wi.jpg" width="50" height="50" alt="">
+                    <img src="gps.jpg" width="50" height="50" alt="">
+                </div>
+
+                <form>
+                    <div class="buscador">
+                        <input type="search" placeholder="Buscar...">
+                        <input type="submit" value="Buscar">
+                    </div>
+                </form>
+            </header>
+            <main>
+                <div id="vvideo">
+                    <iframe width="800" height="400" src="https://www.youtube.com/embed/cnXapYkboRQ">
+                    </iframe>
+                    <h2> <strong> IPHONE 12 PRO MAX</strong></h2>
+                    <div id="star">
+                        <i class="fas fa-heart"></i> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i> <i
+                            class="far fa-heart"></i><i class="far fa-heart"></i>
+                    </div>
+                    <p id="texto">El chip A14 Bionic, el más rápido en un smartphone. Un nuevo diseño. Frente de Ceramic Shield,
+                        más resistente que cualquier vidrio de smartphone. Escáner LiDAR diseñado por Apple. La primera
+                        cámara que graba en Dolby Vision. Un avanzado sistema de cámaras Pro para tomar fotos
+                        espectaculares con poca luz. Y una nueva forma de conectar accesorios con MagSafe. iPhone 12
+                        Pro, el iPhone más poderoso que existe. <br> </p>
+
+                    <p> Música: <br> <a href="http://apple.co/TomatoSoup​" target="_blank" >“Tomato Soup” de Hark Madley </a> <br> <br>
+
+                     Más información:<br> <a href="http://apple.com/iphone-12-pro​" target="_blank" >http://apple.com/iphone-12-pro</a> </p>
+
+                </div>
+            </main>
+            <aside>
+                <div id= " v1">
+                    <iframe width="200" height="100" src="https://www.youtube.com/embed/T04yiCoN41A">
+                    </iframe> 
+                    <h3> <strong> Huawei Mate 40 Pro</strong></h3>
+                </div>
+                <div id= " v2">
+                    <iframe width="200" height="100" src="https://www.youtube.com/embed/TWXpP_QCFBhA">
+                    </iframe> 
+                    <h3> <strong> Oppo Reno 4 Pro</strong></h3> 
+                </div>
+                <div id= " v3">
+                    <iframe width="200" height="100" src="https://www.youtube.com/embed/_Q-qxuhVAJo">
+                    </iframe> 
+                    <h3> <strong> Samsung Galaxy S21 Plus</strong></h3>
+                </div>
+                <div id= " v4">
+                    <iframe width="200" height="100" src="https://www.youtube.com/embed/fpOjmVxpPB0">
+                    </iframe> 
+                    <h3> <strong>ASUS Zenfone 7 Pro</strong></h3>
+                </div>
+                <div id= " v5">
+                    <iframe width="200" height="100" src="https://www.youtube.com/embed/k9SS89Lvlo4">
+                    </iframe> 
+                    <h3> <strong>  Samsung Galaxy Z Fold2</strong></h3>
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+
+</html>

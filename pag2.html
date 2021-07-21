@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Eve2</title>
+    <style>
+        #contenedor {
+            width: auto;
+            margin: 0 auto;
+        }
+
+        #imagen1 {
+            margin: 5px 5%;
+        }
+
+        .buscador {
+            border: 1px solid silver;
+            display: inline;
+            border-radius: 10px;
+            padding: 5px;
+            margin-top: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #e5b1a6;
+            color: black;
+        }
+
+        input[type=search],
+        input[type=search]:focus {
+            -webkit-appearance: none;
+            appearance: none;
+            border: 0;
+            outline: 0;
+            box-sizing: border-box;
+            margin-top: 30px;
+        }
+        header {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            text-align: center;
+            background-color: #a6cbe6;
+        }
+
+        main {
+            width: 100%;
+            height: 500px;
+            float: left;
+            display: flex;
+            justify-content: left;
+            background-color: rgb(243, 230, 205);
+            margin-top: 10px;
+        }
+
+        aside {
+            
+            float: right;
+            margin-top: 90px;
+            background-color: rgb(243, 230, 205);
+        }
+
+        #imagen2 {
+            margin: 10px 3%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        #i1,
+        #i2,
+        #i3,
+        #i4 {
+            border: solid;
+            border-color: rgb(196, 184, 15);
+            box-sizing: border-box;
+        }
+
+        #imagen3 {
+            margin: 35px 3%;
+            border: solid;
+            border-color: rgb(196, 184, 15);
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 50px;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #star {
+            text-align: center;
+        }
+
+        #cant {
+            margin-top: 10px;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #compra {
+            text-align: center;
+            margin: 20px 30%;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(228, 33, 33);
+            border-radius: 10px;
+        }
+        #descri{
+            width: 100%;
+            height: 400px;
+            margin-top: 0px;
+            float: left;
+            background-color: rgb(243, 230, 205);
+        }
+        #texto{
+            text-align: justify;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            margin: 30px 90px 30px 90px ;
+            line-height: 1.6;
+        }
+        @media (max-width: 790px){
+            
+            header{
+                background-color: white;
+                width: auto;
+                flex-wrap: wrap;
+                margin-left: 25%;
+            }
+            #imagen1{
+                width: auto;
+                height: auto;   
+            }
+            .buscador{
+                width: auto;
+                height: auto;
+                margin:0px;
+                background-color:#a6cbe6 ;
+            }
+            main{
+                width: auto;
+                height: auto;
+                flex-wrap: wrap;
+                background-color: white;
+            }
+           
+            #imagen2{
+                flex-direction:row;
+                margin:auto; 
+            }
+            #imagen3{
+                margin: auto;
+            }
+            aside{
+                margin: auto;
+                background-color: white;
+            }
+            #descri{
+                margin-left: 10%;
+                height: auto;
+                background-color: white;
+                font-size: 20px;
+            }
+            #compra{
+                margin: 20px 30%;
+            }
+            #texto{
+                text-align: center;
+                margin: 30px 100px 30px 90px ;
+                line-height:1;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="contenedor">
+            <header>
+                <div id="imagen1">
+                    <img src="on.jpg" width="50" height="50" alt="">
+                    <img src="blue.jpg" width="50" height="50" alt="">
+                    <img src="wi.jpg" width="50" height="50" alt="">
+                    <img src="gps.jpg" width="50" height="50" alt="">
+                </div>
+
+                <form>
+                    <div class="buscador">
+                        <input type="search" placeholder="Buscar...">
+                        <input type="submit" value="Buscar">
+                    </div>
+                </form>
+            </header>
+            <main>
+                <div id="imagen2">
+                    <a href="#"><img id="i1" width="100" height="100" src="xiami1.jpg" alt="xiaomi11"></a>
+                    <a href="#"><img id="i2" width="100" height="100" src="xiami2.jpg" alt="xiaomi11"></a>
+                    <a href="#"><img id="i3" width="100" height="100" src="xiami3.jpg" alt="xiaomi11"></a>
+                    <a href="#"><img id="i4" width="100" height="100" src="xiami4.jpg" alt="xiaomi11"></a>
+                </div>
+                <div id="imagen3">
+                    <a href="#"> <img width="500" height="400" src="Xiaomi-Mi-11.jpg" alt="Xiaomi Mi 11"> </a>
+                </div>
+                <aside>
+                    <h2 style="color:rgb(17, 17, 17);"> <strong> Xiaomi Mi 11</strong> </h2>
+                    <div id="star">
+                        <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                            class="far fa-star"></i><i class="far fa-star"></i>
+                    </div>
+                    <div id="cant">
+                        <label>Cantidad</label>
+                        <input type="number" value="1" min="1" max="10">
+                    </div>
+                    <input id="compra" type="submit" value="Comprar">
+                </aside>
+            </main>
+            
+            <div id="descri">
+                <p id ="texto">
+                    Xiaomi Mi11 un teléfono de gama alta,se caracteriza por su pantalla con panel AMOLED de 6.81
+                    pulgadas con resolución 2k y tasa de refresco de 120 Hz. En cuanto a su cámara trasera es de 108 MP
+                    (principal) + 13 MP (ultra gran angular) + 5 MP (macro). El buque insignia de Xiaomi para 2021 viene
+                    equipado con el Qualcomm Snapdragon 888, con 8 GB o 12 GB de memoria RAM y 128 GB o 256 GB de
+                    almacenamiento interno. <br>
+                    Especificaciones: <br>
+                    🔸Pantalla: AMOLED 6,81", WQHD+, 120 Hz⁣⁣⁣⁣⁣⁣⁣ <br>
+                    🔸Procesador: Snapdragon 888⁣ <br>
+                    🔸RAM: 8 GB⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣ <br>
+                    🔸Almacenamiento: 128/256 GB⁣⁣⁣⁣ <br>
+                    🔸Cámaras traseras: 108 MP; 13 MP UGA 123º; 5 MP macro <br>
+                    🔸Cámara frontal: 20 MP, f/2.2⁣ <br>
+                    🔸Batería: 4.600 mAh, carga rápida 55W, carga inalámbrica de 50W y carga inversa de 10W⁣⁣⁣⁣ <br>
+                </p>
+            </div>
+    </div>
+
+</body>
+
+</html>
